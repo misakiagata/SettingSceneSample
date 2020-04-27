@@ -9,7 +9,7 @@
 import UIKit
 import RxDataSources
 
-//typealias SettingSectionModel = Se
+typealias SettingSectionModel = SectionModel<SettingSection, SettingItem>
 
 enum SettingSection {
     case account
