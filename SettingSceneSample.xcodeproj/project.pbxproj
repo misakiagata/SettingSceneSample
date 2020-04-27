@@ -14,6 +14,7 @@
 		A7B2D07F2456D3FB004C5517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B2D07E2456D3FB004C5517 /* Assets.xcassets */; };
 		A7B2D0822456D3FB004C5517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B2D0802456D3FB004C5517 /* LaunchScreen.storyboard */; };
 		A7B2D08A2456D6D2004C5517 /* SettingSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */; };
+		A7B2D08D2456DA9B004C5517 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D08C2456DA9B004C5517 /* SettingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A7B2D0812456D3FB004C5517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B2D0832456D3FB004C5517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionModel.swift; sourceTree = "<group>"; };
+		A7B2D08C2456DA9B004C5517 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +67,22 @@
 			children = (
 				A7B2D0752456D3FA004C5517 /* AppDelegate.swift */,
 				A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */,
-				A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */,
+				A7B2D08B2456DA89004C5517 /* Setting */,
 				A7B2D07B2456D3FA004C5517 /* Main.storyboard */,
 				A7B2D07E2456D3FB004C5517 /* Assets.xcassets */,
 				A7B2D0802456D3FB004C5517 /* LaunchScreen.storyboard */,
 				A7B2D0832456D3FB004C5517 /* Info.plist */,
 			);
 			path = SettingSceneSample;
+			sourceTree = "<group>";
+		};
+		A7B2D08B2456DA89004C5517 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */,
+				A7B2D08C2456DA9B004C5517 /* SettingViewModel.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		F618C40AAF5C33CB8E1A4ED1 /* Pods */ = {
@@ -222,6 +233,7 @@
 				A7B2D0762456D3FA004C5517 /* AppDelegate.swift in Sources */,
 				A7B2D0782456D3FA004C5517 /* SceneDelegate.swift in Sources */,
 				A7B2D08A2456D6D2004C5517 /* SettingSectionModel.swift in Sources */,
+				A7B2D08D2456DA9B004C5517 /* SettingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
