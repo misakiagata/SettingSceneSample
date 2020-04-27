@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101404A16C63559021E00EB7 /* Pods_SettingSceneSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589C6CE97BEFAD4CF1876AC2 /* Pods_SettingSceneSample.framework */; };
 		A7B2D0762456D3FA004C5517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0752456D3FA004C5517 /* AppDelegate.swift */; };
 		A7B2D0782456D3FA004C5517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */; };
 		A7B2D07A2456D3FA004C5517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0792456D3FA004C5517 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		589C6CE97BEFAD4CF1876AC2 /* Pods_SettingSceneSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SettingSceneSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A843B3E0FAE2F9E05DE6D7B /* Pods-SettingSceneSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingSceneSample.debug.xcconfig"; path = "Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample.debug.xcconfig"; sourceTree = "<group>"; };
+		A2BDE0EB9640FE1797A3B13E /* Pods-SettingSceneSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingSceneSample.release.xcconfig"; path = "Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample.release.xcconfig"; sourceTree = "<group>"; };
 		A7B2D0722456D3FA004C5517 /* SettingSceneSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingSceneSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B2D0752456D3FA004C5517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				101404A16C63559021E00EB7 /* Pods_SettingSceneSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				A7B2D0742456D3FA004C5517 /* SettingSceneSample */,
 				A7B2D0732456D3FA004C5517 /* Products */,
+				F618C40AAF5C33CB8E1A4ED1 /* Pods */,
+				FBFF7DFC49C64305B141AED2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = SettingSceneSample;
 			sourceTree = "<group>";
 		};
+		F618C40AAF5C33CB8E1A4ED1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A843B3E0FAE2F9E05DE6D7B /* Pods-SettingSceneSample.debug.xcconfig */,
+				A2BDE0EB9640FE1797A3B13E /* Pods-SettingSceneSample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBFF7DFC49C64305B141AED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				589C6CE97BEFAD4CF1876AC2 /* Pods_SettingSceneSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7B2D0862456D3FB004C5517 /* Build configuration list for PBXNativeTarget "SettingSceneSample" */;
 			buildPhases = (
+				18DDC08E0517C6161EDE89BF /* [CP] Check Pods Manifest.lock */,
 				A7B2D06E2456D3FA004C5517 /* Sources */,
 				A7B2D06F2456D3FA004C5517 /* Frameworks */,
 				A7B2D0702456D3FA004C5517 /* Resources */,
+				7B36398E9214331D44986480 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,61 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DDC08E0517C6161EDE89BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SettingSceneSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B36398E9214331D44986480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7B2D06E2456D3FA004C5517 /* Sources */ = {
@@ -282,6 +364,7 @@
 		};
 		A7B2D0872456D3FB004C5517 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A843B3E0FAE2F9E05DE6D7B /* Pods-SettingSceneSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +382,7 @@
 		};
 		A7B2D0882456D3FB004C5517 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2BDE0EB9640FE1797A3B13E /* Pods-SettingSceneSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
