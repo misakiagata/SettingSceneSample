@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		101404A16C63559021E00EB7 /* Pods_SettingSceneSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589C6CE97BEFAD4CF1876AC2 /* Pods_SettingSceneSample.framework */; };
 		A722F5A124584BF0001CBAA3 /* SettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A722F5A024584BF0001CBAA3 /* SettingViewController.storyboard */; };
+		A722F5A424585B83001CBAA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A722F5A324585B83001CBAA3 /* DetailViewController.swift */; };
+		A722F5A624585B8F001CBAA3 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A722F5A524585B8F001CBAA3 /* DetailViewController.storyboard */; };
 		A7B2D0762456D3FA004C5517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0752456D3FA004C5517 /* AppDelegate.swift */; };
 		A7B2D0782456D3FA004C5517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */; };
 		A7B2D07F2456D3FB004C5517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B2D07E2456D3FB004C5517 /* Assets.xcassets */; };
@@ -24,6 +26,8 @@
 		9A843B3E0FAE2F9E05DE6D7B /* Pods-SettingSceneSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingSceneSample.debug.xcconfig"; path = "Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BDE0EB9640FE1797A3B13E /* Pods-SettingSceneSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingSceneSample.release.xcconfig"; path = "Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample.release.xcconfig"; sourceTree = "<group>"; };
 		A722F5A024584BF0001CBAA3 /* SettingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingViewController.storyboard; sourceTree = "<group>"; };
+		A722F5A324585B83001CBAA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A722F5A524585B8F001CBAA3 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		A7B2D0722456D3FA004C5517 /* SettingSceneSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingSceneSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B2D0752456D3FA004C5517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A722F5A224585B6D001CBAA3 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A722F5A324585B83001CBAA3 /* DetailViewController.swift */,
+				A722F5A524585B8F001CBAA3 /* DetailViewController.storyboard */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		A7B2D0692456D3FA004C5517 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +86,7 @@
 				A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */,
 				A7B2D09624584AA7004C5517 /* Extension */,
 				A7B2D08B2456DA89004C5517 /* Setting */,
+				A722F5A224585B6D001CBAA3 /* Detail */,
 				A7B2D07E2456D3FB004C5517 /* Assets.xcassets */,
 				A7B2D0802456D3FB004C5517 /* LaunchScreen.storyboard */,
 				A7B2D0832456D3FB004C5517 /* Info.plist */,
@@ -176,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A722F5A624585B8F001CBAA3 /* DetailViewController.storyboard in Resources */,
 				A722F5A124584BF0001CBAA3 /* SettingViewController.storyboard in Resources */,
 				A7B2D0822456D3FB004C5517 /* LaunchScreen.storyboard in Resources */,
 				A7B2D07F2456D3FB004C5517 /* Assets.xcassets in Resources */,
@@ -250,6 +265,7 @@
 				A7B2D0782456D3FA004C5517 /* SceneDelegate.swift in Sources */,
 				A7B2D08A2456D6D2004C5517 /* SettingSectionModel.swift in Sources */,
 				A7B2D08D2456DA9B004C5517 /* SettingViewModel.swift in Sources */,
+				A722F5A424585B83001CBAA3 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
