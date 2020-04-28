@@ -50,6 +50,8 @@ class SettingViewController: UIViewController {
             .subscribe(onNext: { [weak self] indexPath in
                 guard let item = self?.dataSource[indexPath] else { return }
                 self?.settingTableView.deselectRow(at: indexPath, animated: true)
+                let detailViewController = DetailViewController.instantiate()
+                self?.navigationController?.pushViewController(detailViewController, animated: true)
             })
             .disposed(by: disposeBag)
     }
