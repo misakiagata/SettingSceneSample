@@ -8,28 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		101404A16C63559021E00EB7 /* Pods_SettingSceneSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 589C6CE97BEFAD4CF1876AC2 /* Pods_SettingSceneSample.framework */; };
+		A722F5A124584BF0001CBAA3 /* SettingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A722F5A024584BF0001CBAA3 /* SettingViewController.storyboard */; };
 		A7B2D0762456D3FA004C5517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0752456D3FA004C5517 /* AppDelegate.swift */; };
 		A7B2D0782456D3FA004C5517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */; };
-		A7B2D07D2456D3FA004C5517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B2D07B2456D3FA004C5517 /* Main.storyboard */; };
 		A7B2D07F2456D3FB004C5517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B2D07E2456D3FB004C5517 /* Assets.xcassets */; };
 		A7B2D0822456D3FB004C5517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B2D0802456D3FB004C5517 /* LaunchScreen.storyboard */; };
 		A7B2D08A2456D6D2004C5517 /* SettingSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */; };
 		A7B2D08D2456DA9B004C5517 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D08C2456DA9B004C5517 /* SettingViewModel.swift */; };
+		A7B2D08F2456DE38004C5517 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D08E2456DE38004C5517 /* SettingViewController.swift */; };
+		A7B2D09824584AB4004C5517 /* Instantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B2D09724584AB4004C5517 /* Instantiatable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		589C6CE97BEFAD4CF1876AC2 /* Pods_SettingSceneSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SettingSceneSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A843B3E0FAE2F9E05DE6D7B /* Pods-SettingSceneSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingSceneSample.debug.xcconfig"; path = "Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BDE0EB9640FE1797A3B13E /* Pods-SettingSceneSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SettingSceneSample.release.xcconfig"; path = "Target Support Files/Pods-SettingSceneSample/Pods-SettingSceneSample.release.xcconfig"; sourceTree = "<group>"; };
+		A722F5A024584BF0001CBAA3 /* SettingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SettingViewController.storyboard; sourceTree = "<group>"; };
 		A7B2D0722456D3FA004C5517 /* SettingSceneSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SettingSceneSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7B2D0752456D3FA004C5517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7B2D07C2456D3FA004C5517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7B2D07E2456D3FB004C5517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B2D0812456D3FB004C5517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B2D0832456D3FB004C5517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSectionModel.swift; sourceTree = "<group>"; };
 		A7B2D08C2456DA9B004C5517 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
+		A7B2D08E2456DE38004C5517 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A7B2D09724584AB4004C5517 /* Instantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Instantiatable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +71,8 @@
 			children = (
 				A7B2D0752456D3FA004C5517 /* AppDelegate.swift */,
 				A7B2D0772456D3FA004C5517 /* SceneDelegate.swift */,
+				A7B2D09624584AA7004C5517 /* Extension */,
 				A7B2D08B2456DA89004C5517 /* Setting */,
-				A7B2D07B2456D3FA004C5517 /* Main.storyboard */,
 				A7B2D07E2456D3FB004C5517 /* Assets.xcassets */,
 				A7B2D0802456D3FB004C5517 /* LaunchScreen.storyboard */,
 				A7B2D0832456D3FB004C5517 /* Info.plist */,
@@ -81,8 +85,18 @@
 			children = (
 				A7B2D0892456D6D2004C5517 /* SettingSectionModel.swift */,
 				A7B2D08C2456DA9B004C5517 /* SettingViewModel.swift */,
+				A7B2D08E2456DE38004C5517 /* SettingViewController.swift */,
+				A722F5A024584BF0001CBAA3 /* SettingViewController.storyboard */,
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		A7B2D09624584AA7004C5517 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A7B2D09724584AB4004C5517 /* Instantiatable.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F618C40AAF5C33CB8E1A4ED1 /* Pods */ = {
@@ -162,9 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A722F5A124584BF0001CBAA3 /* SettingViewController.storyboard in Resources */,
 				A7B2D0822456D3FB004C5517 /* LaunchScreen.storyboard in Resources */,
 				A7B2D07F2456D3FB004C5517 /* Assets.xcassets in Resources */,
-				A7B2D07D2456D3FA004C5517 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B2D08F2456DE38004C5517 /* SettingViewController.swift in Sources */,
+				A7B2D09824584AB4004C5517 /* Instantiatable.swift in Sources */,
 				A7B2D0762456D3FA004C5517 /* AppDelegate.swift in Sources */,
 				A7B2D0782456D3FA004C5517 /* SceneDelegate.swift in Sources */,
 				A7B2D08A2456D6D2004C5517 /* SettingSectionModel.swift in Sources */,
@@ -240,14 +256,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A7B2D07B2456D3FA004C5517 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A7B2D07C2456D3FA004C5517 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A7B2D0802456D3FB004C5517 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -380,6 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SettingSceneSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.misakiagata.SettingSceneSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -398,6 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SettingSceneSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.misakiagata.SettingSceneSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
