@@ -32,10 +32,10 @@ class SettingViewModel {
     
     private func commonSection() -> SettingSectionModel {
         let items: [SettingItem] = [
-        .sound,
-        .help,
-        .introduce,
-        .others
+            .sound,
+            .help,
+            .introduce,
+            .others
         ]
         return SettingSectionModel(model: .common, items: items)
     }
